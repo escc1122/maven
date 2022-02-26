@@ -52,3 +52,11 @@ pom.xml
 deploy
 mvn deploy:deploy-file -DgroupId=cn.kbyte.utils -DartifactId=phone-number-geo -Dversion=0.1 -Dpackaging=jar -Dfile=D:\phone-number-geo\target\phone-number-geo-0.1.jar -Durl=http://127.0.0.1:8081/repository/al_test/ -DrepositoryId=al_test
 
+
+
+# 參考
+
+maven 標準目錄
+
+https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+
