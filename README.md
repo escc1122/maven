@@ -53,6 +53,27 @@ deploy
 mvn deploy:deploy-file -DgroupId=cn.kbyte.utils -DartifactId=phone-number-geo -Dversion=0.1 -Dpackaging=jar -Dfile=D:\phone-number-geo\target\phone-number-geo-0.1.jar -Durl=http://127.0.0.1:8081/repository/al_test/ -DrepositoryId=al_test
 
 
+# source root
+https://confluence.jetbrains.com/display/IDEADEV/Maven+Integration+FAQ
+
+	<build>
+	 <sourceDirectory>...</sourceDirectory> will be added as Source folder
+	 <testSourceDirectory>...</testSourceDirectory> will be added as Test Source folder
+
+	 <resources>
+	  <resource>
+	   <directory>...</directory> will be added as Source folder
+	  </resource>
+	 <resources>
+
+	 <testResources>
+	  <testResource>
+	   <directory>...</directory> will be added as Test Source folder
+	  </testResource>
+	 /<testResources>
+	</build>
+
+
 
 # 參考
 
